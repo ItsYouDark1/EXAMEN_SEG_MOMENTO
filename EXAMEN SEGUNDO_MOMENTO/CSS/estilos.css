@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3a3d47;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contenedor{
+    width: 1200px;
+    background: white;
+    margin: 10px auto;
+}
+.superior{
+    background: #1551a1;
+    overflow: hidden;
+}
+.logo{
+    float: left;
+    width: 300px;
+    padding: 35px;
+}  
+.menu{
+    float: left;
+    padding: 50px;
+}
+
+.opciones li{
+    float: left;
+    list-style: none;
+}
+.opciones li a{
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.opciones li a:hover{
+    background:#0d356a;
+}
+
+.cuerpo{
+    overflow: hidden;
+}
+.caja{
+    float:left;
+    width: 380px;
+    margin: 7px;
+    border: 1px solid;
+}
+
+.subtitulo{
+    background:#1551a1;
+}
+.servicios{
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.efecto:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.contenido{
+    padding: 5px;
+    text-align: justify;
+}
+
+.boton{
+    padding: 15px;
+    margin: 15px 0;
+    position: relative;
+    margin-left: 35%;
+    color: white;
+    background: #1551a1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.boton:hover{
+    background: #0c2c57;
+}
+.titulo{
+    text-align: center;
+    padding: 20px 0  15px 0;
+    color: #ff7600;
+    font-size: 35px;
+}
+.pie{
+    background: #062348;
+    overflow: hidden;
+    display: block;
+    margin: auto;
+    display: table;
+    justify-content: center;
+    }
+    
+
+.izquierda{
+    float: left;
+    width: 550px;
+    color: white;
+    padding: 50px;
+    
+}
+.derecha{
+    float: right;
+    width: 550px;
+    padding: 50px;
+}
